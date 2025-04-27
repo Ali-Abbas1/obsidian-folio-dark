@@ -2,20 +2,36 @@
 const Projects = () => {
   const projects = [
     {
-      title: "Project 1",
-      description: "A brief description of project 1 and its key features.",
-      tags: ["React", "TypeScript", "Tailwind"],
+      title: "Alpha Squad Website",
+      description: "An inhouse project for the company i was working for",
+      link: "https://as-desktop.vercel.app/",
+      tags: ["React", "Next js", "Tailwind"],
     },
     {
-      title: "Project 2",
-      description: "A brief description of project 2 and its key features.",
-      tags: ["Node.js", "Express", "MongoDB"],
+      title: "LearnForce",
+      description: "A Learning platform  providing learning solutions",
+      link: "https://learnforce.org/",
+      tags: ["Node.js", "Express", "MongoDB, NextJs"],
     },
     {
-      title: "Project 3",
-      description: "A brief description of project 3 and its key features.",
+      title: "LiteCure",
+      description: "LiteCure is a platform that provides 'A MEDICAL LightForce Deep Tissue Laser Therapy'",
+      link: "https://www.litecure.com/",
+      tags: ["Next.js", "GraphQL", "Express Js"],
+    },
+    {
+      title: "Premier OrthoPaedics",
+      description: "Premier Orthopaedics provides the full spectrum of orthopaedic services",
+      link: "https://premierortho.com/",
       tags: ["Next.js", "GraphQL", "PostgreSQL"],
     },
+    {
+      title: "SiriusXM",
+      description: "Sirius XM is an American broadcasting corporation in New York City, that provides satellite radio and online radio services operating in the United States",
+      link: "https://www.siriusxm.com/",
+      tags: ["Next.js", "Node.js"],
+    },
+    
   ];
 
   return (
@@ -27,9 +43,10 @@ const Projects = () => {
         </p>
         <div className="grid gap-8 animate-fade-in">
           {projects.map((project, index) => (
-            <div 
+            <a 
               key={index}
               className="bg-neutral-900 p-8 rounded-lg hover:bg-neutral-800 transition-colors"
+              href={project.link}
             >
               <h2 className="text-2xl font-semibold mb-4">{project.title}</h2>
               <p className="text-neutral-400 mb-6">{project.description}</p>
@@ -43,7 +60,7 @@ const Projects = () => {
                   </span>
                 ))}
               </div>
-            </div>
+            </a>
           ))}
         </div>
       </div>
