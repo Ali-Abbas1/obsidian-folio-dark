@@ -6,7 +6,7 @@ const About = () => {
         <h1 className="text-5xl font-bold mb-6 animate-fade-in">About Me</h1>
         <div className="space-y-8 animate-fade-in">
           <p className="text-xl text-neutral-400">
-            My name is ALi Abbas and I'm a passionate developer focused on creating beautiful and functional web experiences.
+            My name is Ali Abbas and I'm a passionate developer focused on creating beautiful and functional web experiences.
           </p>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div className="bg-neutral-900 p-6 rounded-lg">
