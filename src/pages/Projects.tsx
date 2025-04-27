@@ -11,7 +11,7 @@ const Projects = () => {
       title: "LearnForce",
       description: "A Learning platform  providing learning solutions",
       link: "https://learnforce.org/",
-      tags: ["Node.js", "Express", "MongoDB, NextJs"],
+      tags: ["Node.js", "Express", "MongoDB", "NextJs"],
     },
     {
       title: "LiteCure",
