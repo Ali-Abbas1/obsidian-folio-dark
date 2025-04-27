@@ -36,7 +36,7 @@ const AchievementsSection = () => {
               <div className="flex items-center gap-4">
                 {achievement.icon}
                 <div>
-                  <CardTitle className="text-xl mb-2">{achievement.title}</CardTitle>
+                  <CardTitle className="text-xl mb-2 text-white">{achievement.title}</CardTitle>
                   <CardDescription className="text-neutral-400">
                     {achievement.description}
                   </CardDescription>
