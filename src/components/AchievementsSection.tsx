@@ -1,5 +1,5 @@
 
-import { Award, FileText, FileCode, Cpu, Code } from "lucide-react";
+import { Award, FileText, FileCode, Cpu, Briefcase } from "lucide-react";
 import { Card, CardHeader, CardTitle, CardDescription } from "@/components/ui/card";
 
 const AchievementsSection = () => {

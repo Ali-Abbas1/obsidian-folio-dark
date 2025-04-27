@@ -1,7 +1,7 @@
 
 import AnimatedHero from '../components/AnimatedHero';
 import AchievementsSection from '../components/AchievementsSection';
-import { Code, Cpu } from "lucide-react";
+import { Code, Cpu, FileCode } from "lucide-react";
 
 const Home = () => {
   return (
