@@ -12,7 +12,7 @@ const AchievementsSection = () => {
     {
       icon: <FileText className="text-purple-500" />,
       title: "IEEE Access Publication",
-      description: "First author of a research paper published in IEEE Access, focusing on advancements in AI and machine learning."
+      description: "First author of a research paper published in IEEE Access, focusing on advancements in IoMT and blockchain."
     },
     {
       icon: <FileCode className="text-purple-500" />,
